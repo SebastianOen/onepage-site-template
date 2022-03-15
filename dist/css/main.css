@@ -2,16 +2,22 @@ body {
   margin: 0;
 }
 
+.logo {
+  position: relative;
+  top: -100px;
+}
+
 .background {
   position: relative;
   top: 0;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 40% 40%;
-      grid-template-columns: 40% 40%;
-  background-color: #fff;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  background-color: #2f4454;
   height: 100vh;
-  color: #969696;
+  color: #fff;
+  margin: auto auto;
 }
 
 .background button {
@@ -33,9 +39,15 @@ body {
 }
 
 .text-box {
+  position: relative;
+  right: -100px;
   width: 50ch;
   text-align: center;
   margin: auto auto;
+  /* rotate text and logo oposite way
+  transform: rotateY(30deg);
+  transform-origin: right;
+  */
 }
 
 .perspective {
@@ -44,6 +56,8 @@ body {
 }
 
 .featured-grid {
+  position: relative;
+  right: 100px;
   margin: 200px auto;
   display: -ms-grid;
   display: grid;
@@ -70,30 +84,37 @@ body {
   top: 0;
   -webkit-transition: left 0.5s ease-in;
   transition: left 0.5s ease-in;
+  text-align: center;
+}
+
+.content {
+  margin: 200px auto;
+  width: 75ch;
+  color: #fff;
 }
 
 .first-content {
-  background-color: blue;
+  background-color: #2e151b;
 }
 
 .second-content {
-  background-color: red;
+  background-color: #da7b93;
 }
 
 .third-content {
-  background-color: yellow;
+  background-color: #376e6f;
 }
 
 .fourth-content {
-  background-color: purple;
+  background-color: #306b97;
 }
 
 .fith-content {
-  background-color: green;
+  background-color: #1c3334;
 }
 
 .sixth-content {
-  background-color: black;
+  background-color: #00bdc7;
 }
 
 .appear {
