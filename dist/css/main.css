@@ -135,6 +135,13 @@ body {
   color: #fff;
 }
 
+@media (max-width: 1040px) {
+  .content {
+    margin: auto;
+    width: 40ch;
+  }
+}
+
 .first-content {
   background-color: #2e151b;
 }
