@@ -66,8 +66,8 @@ body {
   .background button {
     padding: 0 10px;
     font-size: 1.7rem;
-    -webkit-transform: rotateX(50deg);
-            transform: rotateX(50deg);
+    -webkit-transform: rotateX(40deg);
+            transform: rotateX(40deg);
   }
   .background button:hover {
     -webkit-box-shadow: 0px 15px 20px 5px rgba(0, 0, 0, 0.5);
