@@ -10,8 +10,8 @@ body {
 
 @media (max-width: 1040px) {
   .logo {
-    top: 0;
-    margin-bottom: 50px;
+    top: 30px;
+    margin-bottom: 60px;
   }
 }
 
@@ -48,18 +48,24 @@ body {
   transition: transform 200ms, -webkit-transform 200ms;
 }
 
-@media (max-width: 1040px) {
-  .background button {
-    padding: 0 10px;
-    font-size: 1.7rem;
-  }
-}
-
 .background button:hover {
   -webkit-box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.5);
           box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+@media (max-width: 1040px) {
+  .background button {
+    padding: 0 10px;
+    font-size: 1.7rem;
+    -webkit-transform: rotateX(40deg);
+            transform: rotateX(40deg);
+  }
+  .background button:hover {
+    -webkit-box-shadow: 0px 15px 20px 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 15px 20px 5px rgba(0, 0, 0, 0.5);
+  }
 }
 
 .text-box {
