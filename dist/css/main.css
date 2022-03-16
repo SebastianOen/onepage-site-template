@@ -37,6 +37,13 @@ body {
   }
 }
 
+@media (max-width: 1040px) {
+  .background .back {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+
 .background button {
   color: #fff;
   background-color: #1b1b1b;
